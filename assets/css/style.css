@@ -21,6 +21,18 @@ a {
     justify-content: center;
 }
 
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+p {
+    text-align: left;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    font-family: 'Roboto', sans-serif;
+}
 /* Hero Section */
 #hero {
     background-image: url(../images/caminoshell2.jpeg);
@@ -119,6 +131,55 @@ a {
     line-height: 2.5rem;
     font-weight: 300;
     letter-spacing: .05rem;
+}
+
+#routes .route-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#routes .route-item {
+    flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    background-image: url(../images/caminohero.jpeg);
+    background-position: 70%;
+    background-size:cover;
+    margin: 10px 5%;
+    position: relative;
+    z-index: 1;
+}
+
+#routes .route-item::after {
+    content:'';
+    position:absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(60deg, #E8F6F3 0%, #F2F3F4 100%);
+    opacity: .8;
+    z-index: -1;
+}
+
+#routes .route-bottom .icon {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 20px;
+    
+}
+
+#routes .route-item h2 {
+    font-size: 4rem;
+    color: #FFA000;
+    margin-bottom: 10px;
+    text-transform: uppercase;
 }
 /* End Routes Section */
 
