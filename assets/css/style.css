@@ -358,6 +358,36 @@ p {
         padding-bottom: 10px;
     }
 
+    #footer h2 {
+        color: #FFA000;
+        font-weight: 700;
+        font-size: 4rem;
+        letter-spacing: 1rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #footer .social-icon {
+        display: flex;
+        margin-bottom: 30px;
+        color: #FFA000;
+    }
+
+    #footer .social-item {
+        height: 40px;
+        width: 40px;
+        margin: 0 50px;
+        color: #FFA000;
+    }
+    
+    #footer .social-item img {
+        transition: 0.5s ease transform;
+    }
+
+    #footer .social-item:hover img {
+        transform: scale(1.5);
+     }
+
 
 /* End Footer */
 
