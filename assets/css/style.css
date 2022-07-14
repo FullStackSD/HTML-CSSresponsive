@@ -32,6 +32,8 @@ p {
     font-size: 2rem;
     line-height: 2.4rem;
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.05rem;
 }
 
 .section-title {
@@ -210,7 +212,7 @@ p {
 }
 
 #advice .pointers-item {
-    display: flex;
+    
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -239,7 +241,7 @@ p {
 }
 
 #advice .pointers-info h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 300;
     margin: 5px;
     color: black;
@@ -265,10 +267,10 @@ p {
     height: 100%;
     width: 100%;
     background-image: linear-gradient(60deg, #A9CCE3 0%, #F2F3F4 100%);
-    opacity: .7;
+    opacity: 0;
 }
 #advice .pointers-img img {
-    transition: .3s ease transform;
+    transition: 0.3s ease transform;
 }
 #advice .pointers-item:hover .pointers-img img{
     transform: scale(1.1);
