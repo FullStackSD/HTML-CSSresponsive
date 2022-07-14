@@ -33,6 +33,19 @@ p {
     line-height: 2.4rem;
     font-family: 'Roboto', sans-serif;
 }
+
+.section-title {
+    font-size: 8rem;
+    font-weight: 300;
+    color: black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+.section-title span {
+    color: #FFA000;
+}
 /* Hero Section */
 #hero {
     background-image: url(../images/caminoshell2.jpeg);
@@ -110,18 +123,6 @@ p {
     margin: 0 auto;
     padding: 100px 0;
 }
-#routes .section-title {
-    font-size: 8rem;
-    font-weight: 300;
-    color: black;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    letter-spacing: .2rem;
-    text-align: center;
-}
-#routes .section-title span {
-    color: #FFA000;
-}
 
 #routes .route-top p {
     font-family: 'Roboto', sans-serif;
@@ -188,6 +189,16 @@ p {
 }
 
 /* End Routes Section */
+
+/* Buen Camino Section */
+#advice .pointers {
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+/* End Buen Camino Section */
 
 /* Keyframes */
 @keyframes text_reveal_box {
