@@ -194,7 +194,7 @@ p {
 
 /* Buen Camino Section */
 #advice {
-    background-color: #EBF5FB;
+    background-color: #EAF2F8;
 }
 #advice .pointers {
     flex-direction: column;
@@ -273,12 +273,16 @@ p {
     opacity: 0.3;
 }
 #advice .pointers-img img {
-    transition: 0.3s ease transform;
+    transition: 0.7s ease transform;
 }
 #advice .pointers-item:hover .pointers-img img{
     transform: scale(1.1);
 }
 /* End Buen Camino Section */
+
+/* Contact Section */
+
+/* End Contact Section */
 
 /* Keyframes */
 @keyframes text_reveal_box {
