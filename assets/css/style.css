@@ -36,16 +36,33 @@ a {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: whitesmoke;
+    background-color: black;
     opacity: .3;
     z-index: -1;
 }
 
-#hero h1{
+#hero h1 {
     display: block;
     width: fit-content;
     font-size: 4rem;
     position: relative;
     padding-left: 100px;
+    color:whitesmoke ;
+}
+
+#hero .cta {
+    display: inline-block;
+    padding: 10px 30px;
+    color: #FFA000;
+    background-color: transparent;
+    border: 2px solid #FFA000;
+    border-radius: 25px 0 25px 0;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 10px;
+    transition: .3s ease background-color;
+    float: right;
+    
 }
 /* End Hero Section */
