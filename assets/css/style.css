@@ -198,6 +198,81 @@ p {
     padding: 100px 0;
 }
 
+#advice .pointers-header h1 {
+    margin-bottom: 50px;
+}
+
+#advice .all-pointers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#advice .pointers-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#advice .pointers-info {
+    padding: 30px;
+    flex-basis: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(60deg, #A9CCE3 0%, #F2F3F4 100%);
+    color: #E8F6F3;
+}
+
+#advice .pointers-info h1 {
+    font-size: 6rem;
+    font-weight: 500;
+    color: #FFA000;
+}
+
+#advice .pointers-info h2 {
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 5px;
+    color: black;
+}
+
+#advice .pointers-info p {
+    color: black;
+
+}
+
+#advice .pointers-img {
+    flex-basis: 50%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+#advice .pointers-img::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(60deg, #A9CCE3 0%, #F2F3F4 100%);
+    opacity: .7;
+}
+#advice .pointers-img img {
+    transition: .3s ease transform;
+}
+#advice .pointers-item:hover .pointers-img img{
+    transform: scale(1.1);
+}
 /* End Buen Camino Section */
 
 /* Keyframes */
