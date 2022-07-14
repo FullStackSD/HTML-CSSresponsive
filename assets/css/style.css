@@ -50,6 +50,17 @@ a {
     color:whitesmoke ;
 }
 
+#hero h1 span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: #FFA000;
+    animation: text_reveal_box 1s ease;
+    animation-delay: 1s;
+}
+
 #hero .cta {
     display: inline-block;
     padding: 10px 30px;
@@ -61,8 +72,27 @@ a {
     text-transform: uppercase;
     letter-spacing: .1rem;
     margin-top: 10px;
-    transition: .3s ease background-color;
-    float: right;
-    
+    transition: .5s ease;
+    transition-property: background-color, color;
+    float: right; 
+}
+
+#hero .cta:hover {
+    color: whitesmoke;
+    background-color: #FFA000;
 }
 /* End Hero Section */
+
+/* Keyframes */
+@keyframes text_reveal_box {
+    50% {
+        width: 100%;
+        left: 0%;
+    }
+    100% {
+        width: 0;
+        left: 100%;
+    }
+}
+
+/* End Keyframes */
