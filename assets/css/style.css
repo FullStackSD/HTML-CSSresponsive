@@ -285,14 +285,19 @@ p {
     flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
+    width: 90%;
     
 }
 
 #contact .contact-items {
-    width: 500px;
-       
-    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
+       
+
 #contact .contact-list {
     width: 80%;
     padding: 20px;
@@ -304,11 +309,12 @@ p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-shadow: 0px 0px 18px 0 #0000002c;
+    box-shadow: 0px 0px 50px 0 #0000002c;
     transition: 0.7s ease box-shadow;
+    background-image: linear-gradient(60deg, #FFA000 0%, #FDEBD0 100%);
 }
 #contact .contact-list:hover {
-    box-shadow: 0px 0px 5px 0 #0000002c;
+    box-shadow: 0px 0px 20px 0 #0000002c;
 }
 #contact .icon {
     width: 70px;
