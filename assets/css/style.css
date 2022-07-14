@@ -193,6 +193,9 @@ p {
 /* End Routes Section */
 
 /* Buen Camino Section */
+#advice {
+    background-color: #EBF5FB;
+}
 #advice .pointers {
     flex-direction: column;
     max-width: 1200px;
@@ -267,7 +270,7 @@ p {
     height: 100%;
     width: 100%;
     background-image: linear-gradient(60deg, #A9CCE3 0%, #F2F3F4 100%);
-    opacity: 0;
+    opacity: 0.3;
 }
 #advice .pointers-img img {
     transition: 0.3s ease transform;
