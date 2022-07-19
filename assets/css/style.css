@@ -442,8 +442,9 @@ p {
     /* End Routes Section */
 
     /* Buen Camino Section */
-    #advice .seciton-p{
-       font-size: 300px;
+    #advice .section-p{
+       font-size: 30px;
+       padding: 20px;
     }
 
 
