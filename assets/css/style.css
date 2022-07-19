@@ -417,11 +417,13 @@ p {
 /* End Keyframes */
 
 /* Media Query for Tablet */
-@media only screen and (max-width: 768px){
+@media only screen and (min-width: 706px) and (max-width:992px) 
+{
     .cta {
         font-size: 2.5rem;
         padding: 40px 60px;
     }
+
     h1.section-title {
         font-size: 7rem;
     }
@@ -430,88 +432,17 @@ p {
         font-size: 7rem;
     }
     #hero {
-        width: 100%;
+       max-width: 992px;
+       
+      
     }
      /* End Hero */
 
-     /* Routes Section */
-     #routes .route-bottom .route-item {
-        flex-basis: 45%;
-        margin: 2.5%;
-     }
-    /* End Routes Section */
-
     /* Buen Camino Section */
     #advice .section-p{
-       font-size: 30px;
-       padding: 20px;
+       font-size: 20px;
+       padding: 30px;
+       text-align: center;
     }
-
-
-    #advice .pointers-item {
-        flex-direction: row;
-    }
-    #advice .pointers-item {
-        height: 400px;
-        margin: 0;
-        width: 400px;
-        border-radius: 0;
-    }
-    #advice .all-pointers .pointers-info {
-        height: 100%;
-    }
-
-    #advice .all-pointers .pointers-img {
-        height: 100%;
-    }
-    /* End Buen Camino Section */
-
-    /* Contact Section */
-    #contact .contact-item {
-        flex-direction: column;
-        padding: 100px 0;
-        align-items: center;
-        justify-content: center;
-        min-width: 20vh;
-    }
-
-    #contact .contact {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-    }
-
-    #contact .contact-items {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        margin: 0;
-        padding: 20px;
     }
     
-    #contact .contact-item {
-        margin: 20px;
-        flex-direction: row;
-    }
-
-    #contact .contact-items .icon {
-        height: 100px;
-        width: 100px;
-    }
-    #contact .contact-items .icon img{
-        object-fit: contain;
-    } 
-
-    #contact .contact-item .contact-info {
-        width: 100%;
-        text-align: left;
-        padding-left: 20px;
-    }
-}
-    /* End Contact Section */
-
-/* End Media Query for Tablet */
-
-/* Media Query for mobile */
-
-/*End Media Query for mobile */
