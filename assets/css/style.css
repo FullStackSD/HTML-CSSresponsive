@@ -107,7 +107,7 @@ p {
 }
 
 #hero .cta {
-    display: inline-block;
+    /* display: inline-block; */
     padding: 10px 30px;
     color: #FFA000;
     background-color: transparent;
