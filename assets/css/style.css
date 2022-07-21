@@ -423,11 +423,12 @@ p {
 
     #hero {
           background-position: center center;
+          max-width: 100%;
           }
 
     #hero h1 
          {
-        font-size: 5rem;
+        font-size: 6rem;
         width: fit-content;   
         }
 
@@ -455,7 +456,7 @@ p {
 
 
 /* Media Query for Tablet */
-@media only screen and (min-width:600px) and (max-width:992px) 
+@media only screen and (min-width:600px) and (max-width:1200px) 
 {
    #hero .cta {
         font-size: 5rem;
