@@ -113,7 +113,7 @@ p {
     background-color: transparent;
     border: 2px solid #FFA000;
     border-radius: 25px 0 25px 0;
-    font-size: 4rem;
+    font-size: 5rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
     margin-top: 10px;
@@ -422,15 +422,24 @@ p {
    /* Hero Section */
 
     #hero {
-        
-        
-        background-position: center center;
-        
-    }
+          background-position: center center;
+          }
 
-    #hero h1 {
+    #hero h1 
+         {
         font-size: 5rem;
+        width: fit-content;   
+        }
+
+    #hero .cta {
+        display: inline-block;
+        padding: 10px 30px;
+
+
+
     }
+    
+
 
 /* End Hero Section */ 
 }
@@ -439,9 +448,9 @@ p {
 /* Media Query for Tablet */
 @media only screen and (min-width:600px) and (max-width:992px) 
 {
-    .cta {
-        font-size: 2.5rem;
-        padding: 40px 60px;
+   #hero .cta {
+        font-size: 5rem;
+        padding: 10px 30px;
     }
 
     h1.section-title {
