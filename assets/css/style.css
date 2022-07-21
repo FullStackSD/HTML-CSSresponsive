@@ -434,14 +434,23 @@ p {
     #hero .cta {
         display: inline-block;
         padding: 10px 30px;
+    }
+    /* End Hero Section */ 
 
+    /* Buen Camino Section */
 
+    #advice .section-p {
+        padding: 30px;
 
     }
-    
+    /* End Buen Camino Section */
 
-
-/* End Hero Section */ 
+    /* Footer Section */
+    #footer h2 {
+        font-size: 3rem;
+        letter-spacing: normal;
+    }
+    /* End Footer Section */
 }
 
 
