@@ -349,6 +349,104 @@ p {
 
 /* End Contact Section */
 
+ /* Form Section */
+ #form,
+ #form::before,
+ #form::after {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: 'Amatic SC', cursive;
+     font-weight: 500;
+ }
+
+ #form {
+     height: 140vh;
+     background: linear-gradient(60deg, #FFA000 0%, #FDEBD0 100%);
+ }
+
+ .touch {
+     background-color: white;
+     width: 95%;
+     min-width: 420px;
+     padding: 35px 50px;
+     transform: translate(-50%, -50%);
+     position: relative;
+     left: 50%;
+     top: 50%;
+     border-radius: 10px;
+     box-shadow: 20px 30px 25px rgba(0, 0, 0, 0.15);
+ }
+
+ #interact {
+    font-size: 8rem;
+    text-align: center;
+    color: black;
+ }
+
+ #label {
+    font-size: 4rem;
+ }
+
+ #message {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    color: #5D6D7E;
+    font-size: 14px;
+    font-weight: 400;
+ }
+
+ form {
+    width: 100%;
+    position: relative;
+    margin: 30px auto 0 auto;
+ }
+
+ .row {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,
+    minmax(300px,1fr));
+    grid-gap: 20px 30px;
+    margin-bottom: 20px;
+ }
+
+ label {
+    color: #FFA000;
+    font-size: 6rem;
+ }
+
+ textarea,
+ input {
+    width: 100%;
+    font-weight: 400;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 2px solid #E8F6F3;
+    margin-top: 5px;
+ }
+
+ textarea {
+    resize: none;
+ }
+
+ textarea:focus,
+ input:focus {
+    outline: none;
+    border-color: #FFA000;
+ } 
+
+ button {
+    border: none;
+    padding: 10px 20px;
+    background: linear-gradient(60deg, #FFA000 0%, #FDEBD0 100%);
+    color: white;
+    border-radius: 3px;
+ }
+ /* End Form Section */
+
 /* Footer */
     #footer {
         background-image: linear-gradient(60deg, #A9CCE3 0%, #F2F3F4 100%);
@@ -438,6 +536,10 @@ p {
     }
     /* End Hero Section */ 
 
+    /* Form Section */
+
+    /* End Form Section */
+
     /* Buen Camino Section */
 
     #advice .section-p {
@@ -453,6 +555,7 @@ p {
     }
     /* End Footer Section */
 }
+
 
 
 /* Media Query for Tablet */
