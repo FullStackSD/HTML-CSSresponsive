@@ -363,11 +363,12 @@ p {
  #form {
      height: 140vh;
      background: linear-gradient(60deg, #FFA000 0%, #FDEBD0 100%);
+    
  }
 
  .touch {
      background-color: white;
-     width: 95%;
+     width: 100%;
      min-width: 420px;
      padding: 35px 50px;
      transform: translate(-50%, -50%);
@@ -376,6 +377,8 @@ p {
      top: 50%;
      border-radius: 10px;
      box-shadow: 20px 30px 25px rgba(0, 0, 0, 0.15);
+     
+     
  }
 
  #interact {
@@ -538,6 +541,16 @@ p {
 
     /* Form Section */
 
+    .touch {
+        max-width: 770px;
+        max-height: 100%;
+        transform: translate(-50%, -50%);
+        position: relative;
+        left: 50%;
+        top: 50%;
+        border-radius: 10px;
+        box-shadow: 20px 30px 25px rgba(0, 0, 0, 0.15)
+    }
     /* End Form Section */
 
     /* Buen Camino Section */
