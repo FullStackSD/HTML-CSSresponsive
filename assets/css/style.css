@@ -59,6 +59,44 @@ p {
     color: #FFA000;
 }
 
+/* Nav Section */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: top center;
+    min-height: 8vh;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.nav-links a {
+    color: #FFA000;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 2.3rem;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.burger {
+    display: none;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color:#FFA000;
+    margin: 5px;
+}
+/* End Nav Section */
+
 /* Hero Section */
 #hero {
     background-image: url(../images/caminoshell2.jpeg);
@@ -368,7 +406,7 @@ p {
 
  .touch {
      background-color: white;
-     width: 100%;
+     width: 95%;
      min-width: 420px;
      padding: 35px 50px;
      transform: translate(-50%, -50%);
@@ -402,7 +440,7 @@ p {
  }
 
  form {
-    width: 100%;
+    width: 95%;
     position: relative;
     margin: 30px auto 0 auto;
  }
@@ -521,6 +559,9 @@ p {
 @media only screen and (min-width:390px) and (max-width: 600px)
 {
    /* Hero Section */
+   body {
+    display: none;
+   }
 
     #hero {
           background-position: center center;
@@ -551,6 +592,9 @@ p {
         border-radius: 10px;
         box-shadow: 20px 30px 25px rgba(0, 0, 0, 0.15)
     }
+    #form {
+    
+    }
     /* End Form Section */
 
     /* Buen Camino Section */
@@ -574,6 +618,10 @@ p {
 /* Media Query for Tablet */
 @media only screen and (min-width:600px) and (max-width:1200px) 
 {
+    .nav-links {
+        width: 50%;
+    }
+
    #hero .cta {
         font-size: 5rem;
         padding: 10px 30px;
