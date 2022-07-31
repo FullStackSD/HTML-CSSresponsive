@@ -6,29 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=PT+Sans&family=Roboto:wght@300&family=Shadows+Into+Light&display=swap" rel="stylesheet">
-    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <title>All Peregrinos</title>
 </head>
 <body>
     <!--Nav Bar-->
-    <section class="navbar">
-       <nav role="navigation">
-        <div id="toggle">
-            <h4 class="logo">All Peregrinos</h4>
-            <input id="checkbox" type="checkbox">
-            <span></span>
-            <span></span>
-            <span></span>
-            <ul id="burger">
-                <a href="#"><li>Home</li></a>
-                <a href="#"><li>Routes</li></a>
-                <a href="#"><li>Experiences</li></a>
-                <a href="#"><li>Contact</li></a>
-                <a href="#"><li>Questions</li></a>
-            </ul>
-        </div>
-       </nav>
-    </section>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">All Peregrinos</label>
+        <ul>
+            <li><a class="active" href="#hero">Home</a></li>
+            <li><a href="#routes">Routes</a></li>
+            <li><a href="#advice">Advice</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#form">Questions</a></li>
+        </ul>
+    </nav>
     <!--End Nav Bar-->
 
   <!-- Hero Section-->
