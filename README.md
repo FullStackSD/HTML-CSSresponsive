@@ -144,4 +144,4 @@ The final site can be viewed at - [All Peregrinos live website](https://fullstac
 ## Media 
 
 - The images chosen were taken from google and facebook.
-- The content was created by me, Shannon Davidson taking my own experimce of the Camino de Santiago into account.
+- The content was created by me, Shannon Davidson taking my own experience of the Camino de Santiago into account.
