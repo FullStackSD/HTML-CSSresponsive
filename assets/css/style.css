@@ -61,40 +61,54 @@ p {
 
 /* Nav Section */
 nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: top center;
-    min-height: 8vh;
-}
-
-.nav-links {
-    display: flex;
-    justify-content: space-around;
+    background: #A9CCE3;
+    height: 80px;
     width: 100%;
 }
 
-.nav-links a {
-    color: #FFA000;
-    text-decoration: none;
-    letter-spacing: 3px;
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
     font-weight: bold;
-    font-size: 2.3rem;
 }
 
-.nav-links li {
-    list-style: none;
+nav ul {
+    float: right;
+    margin-right: 20px;
 }
 
-.burger {
-    display: none;
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
 }
 
-.burger div {
-    width: 25px;
-    height: 3px;
-    background-color:#FFA000;
-    margin: 5px;
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
 }
+
+a.active, a:hover {
+    background: #FFA000;
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+
+
 /* End Nav Section */
 
 /* Hero Section */
@@ -556,12 +570,9 @@ nav {
 /* End Keyframes */
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (min-width:390px) and (max-width: 600px)
+@media only screen and (max-width: 768px)
 {
-   /* Hero Section */
-   body {
-    display: none;
-   }
+    /* Hero Section */
 
     #hero {
           background-position: center center;
@@ -614,14 +625,9 @@ nav {
 }
 
 
-
 /* Media Query for Tablet */
-@media only screen and (min-width:600px) and (max-width:1200px) 
+@media only screen  and (max-width:1200px) 
 {
-    .nav-links {
-        width: 50%;
-    }
-
    #hero .cta {
         font-size: 5rem;
         padding: 10px 30px;
