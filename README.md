@@ -4,7 +4,7 @@ All peregrinos webiste was created for pilgrims who are interested in starting t
 
  Users will be guided through possible routes they might choose to take, they will learn from others who have shared their own experiences of the routes they have chosen to take. The website also provides contact information if the user so wishes to seek further advice or get involved in the community on social media.
 
- <img src="readme_files/readmefilesimg/amiresponsive.img" style="margin: 0;">
+ <img src="readme_files/readmefilesimg/amiresponsive.png" style="margin: 0;">
 
  The final site can be viewed at - [All Peregrinos live website](https://fullstacksd.github.io/HTML-CSSresponsive/)
 
