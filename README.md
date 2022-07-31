@@ -82,3 +82,66 @@ All peregrinos webiste was created for pilgrims who are interested in starting t
 
 <p>&nbsp;</p>
 
+## Testing 
+
+
+- I tested this page using different browsers such as Chrome, Firefox and Safari.
+
+- I confirmed this project as responsive. I made sure there was a pleasant user experience and functions well on all standard screen sizes using the devtools device in the toolbar.
+
+- All sections listed above are easily readable and understandable.
+
+- The form is interactive and works well. It requires the user to enter specific details into each field ie. the email field will only accept email etc.
+
+<p>&nbsp;</p>
+
+## Bugs 
+
+#### Solved Bugs
+
+- When I was creating a responsive nav bar hamburger menu, I realised the z-index was incorrect and therefore was hiding my whole navigavtion behind the hero image. 
+
+- My solution was to change the position to absolute and add a z-index of 2. I also added opacity of .7 for an enjoyable user experience.
+
+<p>&nbsp;</p>
+
+# Validator Testing
+
+- ## HTML
+    - No errors were returned when passing through the official W3C validator. 
+
+
+<img src="readme_files/readmefilesimg/htmlvalidator.png" style="margin: 0;">
+
+- ## CSS 
+    - No errors were returned when passing through the official (Jigsaw) validator. 
+<img src="readme_files/readmefilesimg/cssvalidator.png" style="margin: 0;">
+
+- ## Accessibilty
+    - I confirmed that the colours and the fonts that I chose are easy to read and accessible by running it through lighthousde in devtools.
+<img src="readme_files/readmefilesimg/lighthouse.png" style="margin: 0;">
+
+## Unfixed bugs 
+
+- No unfixed bugs
+
+<p>&nbsp;</p>
+
+# Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+    - In the GitHub repository, navigate to the Settings tab
+    - From the source section drop-down menu, select the Master Branch 
+    - Once the master branch has been selected, the page provided the link to the completed website.
+
+
+The final site can be viewed at - [All Peregrinos live website](https://fullstacksd.github.io/HTML-CSSresponsive/)
+
+<p>&nbsp;</p>
+
+# Credits 
+
+## Media 
+
+- The images chosen were taken from google and facebook.
+- The content was created by me, Shannon Davidson taking my own experimce of the Camino de Santiago into account.
