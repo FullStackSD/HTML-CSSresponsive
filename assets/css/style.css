@@ -155,7 +155,7 @@ a:hover {
     width: fit-content;
     font-size: 12rem;
     position: relative;
-    padding-left: 100px;
+    padding-left: 10px;
     color: transparent;
     animation: text_reveal 1s ease forwards;
     animation-delay: 1.5s;
